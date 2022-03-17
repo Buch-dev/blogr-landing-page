@@ -1,0 +1,110 @@
+.section {
+    // border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 7rem 1.5rem 0 1.5rem;
+
+    h2 {
+        color: $headings;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}
+
+.context-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.img-editor {
+    // border: 1px solid blue;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    transform: scale(1.25);
+}
+
+.text-block {
+    // border: 1px solid #000;
+    text-align: center;
+    
+    h3 {
+        color: $headings;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: $text-blue;
+        line-height: 1.6;
+    }
+}
+
+.img-laptop {
+    // border: 1px solid blue;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    transform: scale(1.45);
+}
+
+.empty {
+    // border: 1px solid magenta;
+    width: 100%;
+    position: relative;
+    height: 20rem;
+}
+
+.img-phones {
+    // border: 1px solid blueviolet;
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 375px;
+    margin-top: 7rem;
+}
+
+.middle {
+    // border: 1px solid green;
+    background-image: url(/blogr-landing-page-main/images/bg-pattern-circles.svg), linear-gradient($gradient-3, $gradient-4);
+    background-size: 163%, 100%;
+    background-position: 50% 500%, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    height: 35rem;
+    border-radius: 0 100px 0 100px;
+}
+
+.text-block-phones {
+    // border: 1px solid #000;
+    text-align: center;
+    
+    h3 {
+        color: $text-white;
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: $text-white;
+        line-height: 1.6;
+    }
+}
+
+.section-laptop {
+    padding: 4rem 1.5rem 0 1.5rem;
+}
+
+.img-editor-desktop, .img-laptop-desktop {
+    display: none;
+}
