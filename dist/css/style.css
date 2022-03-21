@@ -182,7 +182,7 @@ a {
 }
 
 .middle {
-  background-image: url(/dist/images/bg-pattern-circles.svg), linear-gradient(#2c2d3f, #3f4164);
+  background-image: url(../images/bg-pattern-circles.svg), linear-gradient(#2c2d3f, #3f4164);
   background-size: 163%, 100%;
   background-position: 50% 500%, 0% 0%;
   background-repeat: no-repeat, no-repeat;
